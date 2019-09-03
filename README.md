@@ -1,4 +1,4 @@
-# OMDB
+# OMDB Web App
 
 ![picture alt](https://www.programmableweb.com/sites/default/files/styles/facebook_scale_height_200/public/OMDb%20API.png?itok=sFxdpUFo)
 
