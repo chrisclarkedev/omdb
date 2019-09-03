@@ -9,6 +9,8 @@ export default function Navbar() {
           <li><Link to="/home">Home</Link></li>
           <li><Link to="/search">Search</Link></li>
         </ul>
+        <Route path="/" exact render={() => <Home />} />
+        <Route path="/search" render={() => <Search />} />
       </div>
     </>
   )
