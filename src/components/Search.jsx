@@ -20,12 +20,15 @@ class Search extends React.Component {
   getMovie = async (e) => {
     e.preventDefault();
     const movieTitle = e.target.elements.movieTitle.value;
-    await axios.get(`${BASE_URL}t=${movieTitle}`)
+    await axios.get(`${DOMAIN}?apikey=${API_KEY}&t=${movieTitle}`)
       .then((res) => {
-        const title = res.data.results["0"].title;
+        console.log(res);
+        const title = res.data.Title;
+        const year = res.data.Year;
 
 
         this.setState({ title: title })
+        this.setState({ year: year })
       }).catch(err => {
 
       })
@@ -34,6 +37,7 @@ class Search extends React.Component {
 
 
   render() {
+    console.log(this.state.title);
     return (
       <>
         <br></br>
@@ -45,7 +49,9 @@ class Search extends React.Component {
         <br></br>
         <br></br>
         <p>This is the search section</p>
-        <Form getHero={this.getMovie} />
+        <Form getMovie={this.getMovie} />
+        <h2>The title of the movie is{this.state.title}</h2>
+        <h2>The year this came out was {this.state.year}</h2>
       </>
     );
   }

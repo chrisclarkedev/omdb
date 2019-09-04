@@ -2,9 +2,9 @@ import React from 'react';
 
 const Form = (props) => {
 
-  const showCard = () => {
-    document.querySelector('.results').classList.add('show-results');
-  }
+  // const showCard = () => {
+  //   document.querySelector('.results').classList.add('show-results');
+  // }
   return (
     <div className="form-search">
       <p>Search for your favorite Movie!!</p>
@@ -13,7 +13,7 @@ const Form = (props) => {
           type="text"
           name="movieTitle"
           placeholder="Search Film" />
-        <button onClick={showCard}>Search</button>
+        <button>Search</button>
       </form>
     </div>
   );
