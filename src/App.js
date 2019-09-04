@@ -13,8 +13,6 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><a href="/#search">Search</a></li>
           </ul>
-
-
         </div>
       </div>
 
