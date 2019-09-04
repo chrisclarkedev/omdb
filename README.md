@@ -51,4 +51,5 @@ Easy to understand and navigate application.
 Component     | Priority      | Estimated Time  |  Actual Time  |
 ------------- | ------------- |---------------  |-------------  |
 Home          | High          | 2 Hours         | 3 Hours       |
-Search        | High          | 3               | (TBD)  
+Search        | High          | 3 Hours         | 3 Hours       |
+Styling       | Mid           | (TBD)           | (TBD)         |
