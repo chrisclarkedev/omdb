@@ -25,10 +25,12 @@ class Search extends React.Component {
         console.log(res);
         const title = res.data.Title;
         const year = res.data.Year;
+        const poster = res.data.Poster;
 
 
         this.setState({ title: title })
         this.setState({ year: year })
+        this.setState({ poster: poster })
       }).catch(err => {
 
       })
@@ -52,6 +54,7 @@ class Search extends React.Component {
         <Form getMovie={this.getMovie} />
         <h2>The title of the movie is{this.state.title}</h2>
         <h2>The year this came out was {this.state.year}</h2>
+        <img src={this.state.poster} />
       </>
     );
   }
