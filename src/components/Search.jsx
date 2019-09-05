@@ -27,12 +27,14 @@ class Search extends React.Component {
         const year = res.data.Year;
         const poster = res.data.Poster;
         const genre = res.data.Genre;
+        const plot = res.data.Plot;
 
 
         this.setState({ title: title })
         this.setState({ year: year })
         this.setState({ poster: poster })
         this.setState({ genre: genre })
+        this.setState({ plot: plot })
       }).catch(err => {
 
       })
@@ -55,9 +57,14 @@ class Search extends React.Component {
         <Form getMovie={this.getMovie} />
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <img src={this.state.poster} />
         <h2>{this.state.title}</h2>
-        <h2>{this.state.genre} &nbsp; {this.state.year}</h2>
+        <h2>{this.state.genre}</h2>
+        <p>{this.state.plot}</p>
       </>
     );
   }
