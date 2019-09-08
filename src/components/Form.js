@@ -18,10 +18,9 @@ const Form = (props) => {
             name="movieTitle"
             placeholder="Search Here.." />
           <button>Search</button>
-          {/* <button type="submit" class="searchButton">&#x1F50E;</button> */}
         </div>
       </form>
-    </div>
+    </div >
   );
 }
 

@@ -59,17 +59,18 @@ class Search extends React.Component {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <img src={this.state.poster} />
-        <h2>{this.state.title}</h2>
-        <h2>{this.state.genre}</h2>
-        <p>{this.state.plot}</p>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        <div className="wrapper">
+          <div className="container">
+            <div className="img-container">
+              <img src={this.state.poster} />
+              <div className="title">
+                <p1><span>release year</span>{this.state.year}</p1>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
       </>
     );
   }
