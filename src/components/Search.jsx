@@ -65,6 +65,11 @@ class Search extends React.Component {
         <h2>{this.state.title}</h2>
         <h2>{this.state.genre}</h2>
         <p>{this.state.plot}</p>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </>
     );
   }
