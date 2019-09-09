@@ -65,7 +65,6 @@ class Search extends React.Component {
               <img src={this.state.poster} />
               <div className="title">
                 <p1><span>release year</span>{this.state.year}</p1>
-
               </div>
             </div>
           </div>

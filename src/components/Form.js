@@ -10,14 +10,18 @@ const Form = (props) => {
       <p>Search for your favorite Movie!!</p>
       <form onSubmit={props.getMovie}>
         <div id="wrap">
-          <input
-            id="search"
-            name="search"
-            type="text"
-            class="searchTerm"
-            name="movieTitle"
-            placeholder="Search Here.." />
-          <button>Search</button>
+          <div className="search">
+            <input
+              id="search"
+              name="search"
+              type="text"
+              class="searchTerm"
+              name="movieTitle"
+              placeholder="Search Here.." />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
         </div>
       </form>
     </div >
