@@ -2,7 +2,7 @@
 
 ![picture alt](https://www.programmableweb.com/sites/default/files/styles/facebook_scale_height_200/public/OMDb%20API.png?itok=sFxdpUFo)
 
-Click [here](http://omdb-cc.surge.sh/search) for a live demo!
+Click [here](http://omdb-cc.surge.sh/) for a live demo!
 
 ## Description ###
 
