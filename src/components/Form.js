@@ -7,7 +7,7 @@ const Form = (props) => {
 
   return (
     <div className="form-search">
-      <p>Search for your favorite Movie!!</p>
+      <h4>Search for your favorite Movie!!</h4>
       <form onSubmit={props.getMovie}>
         <div id="wrap">
           <div className="search">

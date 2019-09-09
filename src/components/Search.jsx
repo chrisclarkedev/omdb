@@ -3,7 +3,6 @@ import axios from 'axios';
 import Form from './Form';
 const DOMAIN = 'http://www.omdbapi.com/';
 const API_KEY = '2abf65eb';
-const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&`
 
 
 class Search extends React.Component {
@@ -62,14 +61,19 @@ class Search extends React.Component {
         <div className="wrapper">
           <div className="container">
             <div className="img-container">
+              <br></br>
               <img src={this.state.poster} />
               <div className="title">
-                <p1><span>release year</span>{this.state.year}</p1>
+                <h6><span>release year</span></h6>
+                <p>{this.state.year}</p>
               </div>
             </div>
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
-
       </>
     );
   }

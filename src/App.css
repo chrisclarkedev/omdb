@@ -7,7 +7,10 @@ body{
   padding: 0;
   font-family: sans-serif;
   text-align: center;
-  background-image: url('https://cdn.hipwallpaper.com/i/84/53/9hFlXC.jpg')
+  background-image: url('https://cdn.hipwallpaper.com/i/84/53/9hFlXC.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
 }
 
 html, body {
@@ -15,8 +18,6 @@ html, body {
   margin: 0;
   padding: 0;
   width:100%;
-  /* background-color: black;
-  color: whitesmoke; */
 }
 /* NAVBAR STYLING */
 
@@ -116,13 +117,15 @@ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 .search {
   width: 100%;
-  position: relative;
+  position: fixed;
   display: flex;
-  left: 30%;
+  left: 38.5%;
+  margin: 0;
+  padding: 0;
 }
 
 .searchTerm {
-  width: 35%;
+  width: 20%;
   border: 3px solid goldenrod;
   border-right: none;
   padding: 5px;
@@ -155,9 +158,63 @@ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 /* SEARCH PAGE STYLING */
 
 @import url('https://fonts.googleapis.com/css?family=Limelight&display=swap');
-p{
+h4{
   font-family: 'Limelight', cursive;
-  font-size:32px;
+  font-size: 29px;
   font-weight:bolder;
   color:white;
+}
+
+/* MOVIE CARD */
+
+.wrapper{
+  position: fixed;
+  top:75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container{
+  width: 390px;
+  height: 610px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.img-container{
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+
+.img-container img{
+  width: 95%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background: #d54020;
+  border-radius:50%;
+  color: #fff;
+}
+
+.title span{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.title p{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 15px;
+  bottom: 200px;
 }
