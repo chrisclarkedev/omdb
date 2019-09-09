@@ -58,6 +58,7 @@ class Search extends React.Component {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
         <div className="wrapper">
           <div className="container">
             <div className="img-container">
