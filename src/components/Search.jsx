@@ -68,6 +68,13 @@ class Search extends React.Component {
                 <p>{this.state.year}</p>
               </div>
             </div>
+            <div className="content">
+              <div className="plot">
+                <h3>{this.state.title}</h3>
+                <p>{this.state.genre}</p>
+                <p>{this.state.plot}</p>
+              </div>
+            </div>
           </div>
           <br></br>
           <br></br>

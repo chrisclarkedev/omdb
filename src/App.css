@@ -175,7 +175,7 @@ h4{
 }
 
 .container{
-  width: 390px;
+  width: 370px;
   height: 610px;
   background: #fff;
   border-radius: 5px;
@@ -215,6 +215,6 @@ h4{
   text-transform: uppercase;
   text-align: center;
   margin-top: -20px;
-  font-size: 15px;
-  bottom: 200px;
+  font-weight: 700px;
+  font-size: 22px;
 }
