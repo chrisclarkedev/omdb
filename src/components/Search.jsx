@@ -72,7 +72,7 @@ class Search extends React.Component {
             <div className="content">
               <div className="plot">
                 <h3>{this.state.title}</h3>
-                <p>{this.state.genre}</p>
+                <p1>{this.state.genre}</p1>
                 <p>{this.state.plot}</p>
               </div>
             </div>
