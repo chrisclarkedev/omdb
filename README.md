@@ -2,6 +2,8 @@
 
 ![picture alt](https://www.programmableweb.com/sites/default/files/styles/facebook_scale_height_200/public/OMDb%20API.png?itok=sFxdpUFo)
 
+Click [here](http://omdb-cc.surge.sh/search) for a live demo!
+
 ## Description ###
 
 Web app using the Open Movie Database (OMDB) api. There will be an open search bar where the user can search for a specific movie that they want. Once searched for the movie will be displayed along with some the various details about said movie. 
@@ -52,4 +54,4 @@ Component     | Priority      | Estimated Time  |  Actual Time  |
 ------------- | ------------- |---------------  |-------------  |
 Home          | High          | 2 Hours         | 3 Hours       |
 Search        | High          | 3 Hours         | 3 Hours       |
-Styling       | Mid           | (TBD)           | (TBD)         |
+Styling       | Mid           | 2 Hours         | 9 Hours       |
