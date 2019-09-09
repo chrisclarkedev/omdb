@@ -169,6 +169,14 @@ h4{
   right: 35%;
 }
 
+.result-card {
+  display:none;
+}
+
+.show-result-card {
+  display: block;
+}
+
 /* MOVIE CARD */
 
 .wrapper{

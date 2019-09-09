@@ -1,9 +1,10 @@
 import React from 'react';
+
 const Form = (props) => {
 
-  // const showCard = () => {
-  //   document.querySelector('.results').classList.add('show-results');
-  // }
+  const showCard = () => {
+    document.querySelector('.result-card').classList.add('show-result-card');
+  }
 
   return (
     <div className="form-search">
@@ -18,7 +19,7 @@ const Form = (props) => {
               class="searchTerm"
               name="movieTitle"
               placeholder="Search Here.." />
-            <button type="submit" class="searchButton">
+            <button type="submit" class="searchButton" onClick={showCard}>
               <i class="fa fa-search"></i>
             </button>
           </div>
