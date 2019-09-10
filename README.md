@@ -52,7 +52,7 @@ Easy to understand and navigate application.
 
 Component     | Priority      | Estimated Time  |  Actual Time  |
 ------------- | ------------- |---------------  |-------------  |
-Home          | High          | 40 Mins         | 30 Mins       |
+Home          | High          | 40 Mins         | 50 Mins       |
 Search        | High          | 1 Hour          | 1 Hour        |
 Search(Funct.)| High          | 2 Hours         | 8 Hours       |
 Navbar        | High          | 1 Hours         | 3 Hours       |
