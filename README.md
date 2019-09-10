@@ -52,6 +52,11 @@ Easy to understand and navigate application.
 
 Component     | Priority      | Estimated Time  |  Actual Time  |
 ------------- | ------------- |---------------  |-------------  |
-Home          | High          | 2 Hours         | 3 Hours       |
-Search        | High          | 3 Hours         | 3 Hours       |
-Styling       | Mid           | 2 Hours         | 9 Hours       |
+Home          | High          | 40 Mins         | 30 Mins       |
+Search        | High          | 1 Hour          | 1 Hour        |
+Search(Funct.)| High          | 2 Hours         | 8 Hours       |
+Navbar        | High          | 1 Hours         | 3 Hours       |
+Nav  (Routing)| High          | 1 Hours         | 2 Hours       |
+Home(CSS)     | High          | 3 Hours         | 3 Hours       |
+Search(CSS)   | High          | 3 Hours         | 9 Hours       |
+Nav(CSS)      | Low           | 1 Hour          | 45 Mins       |
